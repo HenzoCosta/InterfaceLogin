@@ -89,6 +89,6 @@ public class InterfaceLogin {
 		frame.getContentPane().add(btnNewButton);
 	}
 	public boolean checkLogin(String Login, String Senha) {
-		return Login.equals("Adm") 
+		return Login.equals("Adm") && Senha.equals("Adm");
 	}
 }
